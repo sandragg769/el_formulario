@@ -24,7 +24,7 @@ namespace ElFormulario
 
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
-
+            MessageBox.Show("Hola Mundo");
         }
     }
 }

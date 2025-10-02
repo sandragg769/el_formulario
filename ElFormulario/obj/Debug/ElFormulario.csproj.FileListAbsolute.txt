@@ -1,0 +1,10 @@
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\bin\Debug\ElFormulario.exe.config
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\bin\Debug\ElFormulario.exe
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\bin\Debug\ElFormulario.pdb
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.csproj.AssemblyReference.cache
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.fmElFormulario.resources
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.Properties.Resources.resources
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.csproj.GenerateResource.cache
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.csproj.CoreCompileInputs.cache
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.exe
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.pdb

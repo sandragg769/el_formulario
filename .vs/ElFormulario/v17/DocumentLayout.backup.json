@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|c:\\users\\sandra\\desktop\\disenointerfaces\\elformulario\\elformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|solutionrelative:elformulario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\elformulario\\fmelformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|solutionrelative:elformulario\\fmelformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|c:\\users\\sandra\\desktop\\disenointerfaces\\elformulario\\elformulario\\fmelformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F1C297A-A576-4B15-B525-1415AED7CFED}|ElFormulario\\ElFormulario.csproj|solutionrelative:elformulario\\fmelformulario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,11 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\Form1.cs",
-              "RelativeDocumentMoniker": "ElFormulario\\Form1.cs",
-              "ToolTip": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ElFormulario\\Form1.cs [Dise\u00F1o]",
+              "Title": "fmElFormulario.cs",
+              "DocumentMoniker": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\fmElFormulario.cs",
+              "RelativeDocumentMoniker": "ElFormulario\\fmElFormulario.cs",
+              "ToolTip": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\fmElFormulario.cs",
+              "RelativeToolTip": "ElFormulario\\fmElFormulario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:39:52.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fmElFormulario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\fmElFormulario.cs",
+              "RelativeDocumentMoniker": "ElFormulario\\fmElFormulario.cs",
+              "ToolTip": "C:\\Users\\Sandra\\Desktop\\DisenoInterfaces\\ElFormulario\\ElFormulario\\fmElFormulario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ElFormulario\\fmElFormulario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-02T10:39:50.544Z",
               "EditorCaption": " [Dise\u00F1o]"
