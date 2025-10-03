@@ -50,6 +50,7 @@
             this.btDisminuye = new System.Windows.Forms.Button();
             this.btAumenta = new System.Windows.Forms.Button();
             this.btVisible = new System.Windows.Forms.Button();
+            this.btCreaBoton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.pnBotones.SuspendLayout();
             this.SuspendLayout();
@@ -173,7 +174,7 @@
             this.btTres.TabIndex = 2;
             this.btTres.Text = "Tres";
             this.btTres.UseVisualStyleBackColor = false;
-            this.btTres.Click += new System.EventHandler(this.button2_Click_2);
+            this.btTres.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btDos
             // 
@@ -186,7 +187,7 @@
             this.btDos.TabIndex = 1;
             this.btDos.Text = "Dos";
             this.btDos.UseVisualStyleBackColor = false;
-            this.btDos.Click += new System.EventHandler(this.button1_Click_2);
+            this.btDos.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // btUno
             // 
@@ -230,6 +231,7 @@
             this.btSalir.TabIndex = 7;
             this.btSalir.Text = "Salir";
             this.btSalir.UseVisualStyleBackColor = false;
+            this.btSalir.Click += new System.EventHandler(this.btSalir_Click);
             // 
             // btAcercaDe
             // 
@@ -267,6 +269,7 @@
             this.btDelante.TabIndex = 4;
             this.btDelante.Text = "Delante";
             this.btDelante.UseVisualStyleBackColor = false;
+            this.btDelante.Click += new System.EventHandler(this.btDelante_Click);
             // 
             // btControlesForm
             // 
@@ -279,6 +282,7 @@
             this.btControlesForm.TabIndex = 3;
             this.btControlesForm.Text = "Controles Form";
             this.btControlesForm.UseVisualStyleBackColor = false;
+            this.btControlesForm.Click += new System.EventHandler(this.btControlesForm_Click);
             // 
             // btDetras
             // 
@@ -291,6 +295,7 @@
             this.btDetras.TabIndex = 2;
             this.btDetras.Text = "Detrás";
             this.btDetras.UseVisualStyleBackColor = false;
+            this.btDetras.Click += new System.EventHandler(this.btDetras_Click);
             // 
             // btDisminuye
             // 
@@ -331,12 +336,25 @@
             this.btVisible.UseVisualStyleBackColor = false;
             this.btVisible.Click += new System.EventHandler(this.btVisible_Click);
             // 
+            // btCreaBoton
+            // 
+            this.btCreaBoton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btCreaBoton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btCreaBoton.Location = new System.Drawing.Point(422, 213);
+            this.btCreaBoton.Name = "btCreaBoton";
+            this.btCreaBoton.Size = new System.Drawing.Size(153, 40);
+            this.btCreaBoton.TabIndex = 13;
+            this.btCreaBoton.Text = "Crea Botón";
+            this.btCreaBoton.UseVisualStyleBackColor = false;
+            this.btCreaBoton.Click += new System.EventHandler(this.button1_Click_2);
+            // 
             // fmElFormulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(951, 393);
+            this.Controls.Add(this.btCreaBoton);
             this.Controls.Add(this.btVisible);
             this.Controls.Add(this.pnBotones);
             this.Controls.Add(this.groupBox1);
@@ -385,6 +403,7 @@
         private System.Windows.Forms.Button btSalir;
         private System.Windows.Forms.Button btAcercaDe;
         private System.Windows.Forms.Button btVisible;
+        private System.Windows.Forms.Button btCreaBoton;
     }
 }
 

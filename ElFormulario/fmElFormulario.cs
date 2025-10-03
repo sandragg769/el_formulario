@@ -60,25 +60,20 @@ namespace ElFormulario
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click_2(object sender, EventArgs e)
         {
+            foreach (Control micontrol in pnBotones.Controls)
+            {
+                if (micontrol is Button)  // si es un botón
+                {
+                    micontrol.ForeColor = Color.Blue;  // ejemplo: cambia el color de texto a azul
+                }
+                MessageBox.Show(micontrol.Name);  // muestra el nombre de cada control en el panel
+            }
 
+            MessageBox.Show("Total Controles en el Panel: " + pnBotones.Controls.Count);
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
 
         // Botón ARRIBA
         private void btArriba_Click(object sender, EventArgs e)
@@ -185,8 +180,105 @@ namespace ElFormulario
             }
         }
 
+        private void btDelante_Click(object sender, EventArgs e)
+        {
+            laMover.BringToFront();//método que envía a primer plano.  
+        }
 
+        private void btDetras_Click(object sender, EventArgs e)
+        {
+             laMover.SendToBack();//método que envía al fondo al objeto 
+        }
 
+        private void btControlesForm_Click(object sender, EventArgs e)
+        {
+            foreach (Control micontrol in Controls)
+            {
+                if (micontrol is Button)  // usamos el operador de clase is 
+                {
+                    micontrol.ForeColor = Color.Red;
+                }
+                MessageBox.Show(micontrol.Name);
+            }
+            /* 
+            for(int i=0;i<Controls.Count;i++) //otra forma de uso de los  
+                     controles 
+            {  
+               MessageBox.Show(Controls[i].Name); //otra forma de uso de las  
+                             propiedades de esta matriz 
+            } 
+            */
+
+            MessageBox.Show("Total Controles en el Formulario" +
+                                                              Controls.Count);
+        }
+
+        //boton control panel
+        private void button5_Click(object sender, EventArgs e)
+        {
+            foreach (Control micontrol in pnBotones.Controls)
+            {
+                if (micontrol is Button)  // si es un botón
+                {
+                    micontrol.ForeColor = Color.Blue;  // ejemplo: cambia el color de texto a azul
+                }
+                MessageBox.Show(micontrol.Name);  // muestra el nombre de cada control en el panel
+            }
+
+            MessageBox.Show("Total Controles en el Panel: " + pnBotones.Controls.Count);
+        }
+
+        private void btSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        //botones 1,2,3
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (sender == btUno)
+            {
+                MessageBox.Show("es el uno");
+            }
+            if (sender == btDos)
+            {
+                MessageBox.Show("es el dos");
+            }
+            if (sender == btTres)
+            {
+                MessageBox.Show("es el tres");
+            }
+            // Aquí pones el moldeado para cambiar propiedades del botón que disparó el evento
+            Button miBoton = (Button)sender;
+            miBoton.BackColor = Color.Red;  // Cambia el color de fondo del botón clickeado
+
+            MessageBox.Show("Es el botón " + miBoton.Text);
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            Button miboton = new Button();                  // Crear el nuevo botón
+            miboton.Text = "Mi botón";                       // Texto que mostrará
+            miboton.Size = new System.Drawing.Size(100, 25); // Tamaño del botón
+            miboton.Location = new System.Drawing.Point(470, 300); // Ubicación en el formulario
+            miboton.Parent = this;                            // Asignar el formulario como contenedor
+            miboton.TabIndex = 25;                            // Índice de tabulación
+            miboton.UseVisualStyleBackColor = true;          // Usar estilo visual predeterminado
+
+            // Asociar el evento Click del nuevo botón al manejador miboton_Click
+            miboton.Click += new System.EventHandler(miboton_Click);
+
+            // Deshabilitar el botón que crea para evitar crear varios botones
+            btCreaBoton.Enabled = false;
+
+            // Finalmente agregar el botón al formulario (ya hace Parent = this, pero para asegurarnos)
+            this.Controls.Add(miboton);
+        }
+
+        private void miboton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Click del Nuevo Botón Creado");
+        }
 
     }
 }
