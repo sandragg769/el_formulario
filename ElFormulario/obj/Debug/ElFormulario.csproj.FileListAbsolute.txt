@@ -9,3 +9,4 @@ C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElF
 C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.exe
 C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.pdb
 C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.exe.config
+C:\Users\Sandra\Desktop\DisenoInterfaces\ElFormulario\ElFormulario\obj\Debug\ElFormulario.fmAcercade.resources

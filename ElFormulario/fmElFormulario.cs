@@ -30,36 +30,6 @@ namespace ElFormulario
             MessageBox.Show("Hola Mundo");
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click_2(object sender, EventArgs e)
         {
             foreach (Control micontrol in pnBotones.Controls)
@@ -280,5 +250,16 @@ namespace ElFormulario
             MessageBox.Show("Click del Nuevo Botón Creado");
         }
 
+        private void btAcercaDe_Click(object sender, EventArgs e)
+        {
+            // Crear el objeto dinámicamente
+            fmAcercade ventanaAcercade = new fmAcercade();
+
+            // Mostrarlo como ventana modal
+            ventanaAcercade.ShowDialog();
+
+            // Destruirlo después de usarlo
+            ventanaAcercade.Dispose();
+        }
     }
 }

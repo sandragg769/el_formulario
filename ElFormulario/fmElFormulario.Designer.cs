@@ -70,7 +70,6 @@
             this.laBienvenida.TabIndex = 0;
             this.laBienvenida.Text = "Bienvenido a la Aplicación";
             this.laBienvenida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.laBienvenida.Click += new System.EventHandler(this.label1_Click);
             // 
             // btArriba
             // 
@@ -135,7 +134,6 @@
             this.laMover.Size = new System.Drawing.Size(82, 25);
             this.laMover.TabIndex = 8;
             this.laMover.Text = "XXXXX";
-            this.laMover.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // laTamanyo
             // 
@@ -244,6 +242,7 @@
             this.btAcercaDe.TabIndex = 6;
             this.btAcercaDe.Text = "Acerca de";
             this.btAcercaDe.UseVisualStyleBackColor = false;
+            this.btAcercaDe.Click += new System.EventHandler(this.btAcercaDe_Click);
             // 
             // btrControlesPanel
             // 

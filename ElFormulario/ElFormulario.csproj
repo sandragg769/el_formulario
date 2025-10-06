@@ -52,8 +52,17 @@
     <Compile Include="fmElFormulario.Designer.cs">
       <DependentUpon>fmElFormulario.cs</DependentUpon>
     </Compile>
+    <Compile Include="fmAcercade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmAcercade.Designer.cs">
+      <DependentUpon>fmAcercade.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fmAcercade.resx">
+      <DependentUpon>fmAcercade.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fmElFormulario.resx">
       <DependentUpon>fmElFormulario.cs</DependentUpon>
     </EmbeddedResource>
